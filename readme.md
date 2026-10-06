@@ -1,5 +1,3 @@
-readme_content = """# Pixels-Based Operations Through a Road Scene
-
 This project implements a smart-road monitoring system pipeline that processes real-world road imagery to perform pixel manipulation, binarization, adjacency verification, and connected component labeling using different connectivity rules.
 
 ## Project Pipeline
@@ -26,7 +24,3 @@ This project implements a smart-road monitoring system pipeline that processes r
 - `task5_binary_manual.jpg` (Manual pixel-loop thresholding)
 """
 
-with open("README.md", "w") as f:
-    f.write(readme_content)
-
-print("README.md successfully created!")
